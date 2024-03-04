@@ -58,3 +58,54 @@ while True:
         break
     else:
         print("Invalid choice. Please enter again.")
+
+
+'''
+admin1@admin1-ThinkCentre-E73:~/F21111036$ python3 AI1.py 
+Create the graph:
+Enter a vertex (or type 'done' to finish): 0
+Enter edges for vertex 0 separated by spaces: 1 2
+Enter a vertex (or type 'done' to finish): 1
+Enter edges for vertex 1 separated by spaces: 0 2 3
+Enter a vertex (or type 'done' to finish): 2
+Enter edges for vertex 2 separated by spaces: 0 1 4
+Enter a vertex (or type 'done' to finish): 3
+Enter edges for vertex 3 separated by spaces: 1 4
+Enter a vertex (or type 'done' to finish): 4
+Enter edges for vertex 4 separated by spaces: 2 3
+Enter a vertex (or type 'done' to finish): done
+Graph:
+0: 1, 2
+1: 0, 2, 3
+2: 0, 1, 4
+3: 1, 4
+4: 2, 3
+
+********** MENU **********
+
+1. BFS
+2. DFS
+3. Exit
+
+Enter your choice: 1
+Enter the starting node for BFS: 0
+Breadth-First Search:
+0 1 2 3 4 
+********** MENU **********
+
+1. BFS
+2. DFS
+3. Exit
+
+Enter your choice: 2
+Enter the starting node for DFS: 0
+Depth-First Search:
+0 1 2 4 3 
+********** MENU **********
+
+1. BFS
+2. DFS
+3. Exit
+
+Enter your choice: 3
+'''
